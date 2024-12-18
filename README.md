@@ -12,6 +12,16 @@
 https://docs.docker.com/get-started/get-docker/
 https://podman.io/docs/installation
 
+### カレントディレクトリをマウントしてbashを起動
+```bash
+## Bash
+$ docker run --rm -it -v $(pwd):/workdir -w /workdir ghcr.io/dodolia907/tutclass:main
+```
+```powershell
+## PowerShell
+> docker run --rm -it -v "${pwd}:/workdir" -w /workdir ghcr.io/dodolia907/tutclass:main
+```
+
 ### 同じディレクトリのファイルをコンパイル
 ```bash
 ## Bash
