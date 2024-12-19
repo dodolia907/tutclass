@@ -11,6 +11,7 @@
 予めDockerまたはPodman等のインストールが必要です。
 https://docs.docker.com/get-started/get-docker/
 https://podman.io/docs/installation
+Podmanの場合はDockerコマンドをPodmanに置き換えます。
 
 ### カレントディレクトリをマウントしてbashを起動
 ```bash
